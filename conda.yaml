@@ -1,0 +1,17 @@
+name: aml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  # Dev
+  - black
+  - flake8
+  - ipykernel
+  - mypy
+  - notebook
+  - pydocstyle
+  - pylint
+  - pip:
+      - azureml-core
+      - azureml-pipeline
