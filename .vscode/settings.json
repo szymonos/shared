@@ -18,7 +18,6 @@
     "editor.tabSize": 2
   },
   "jupyter.alwaysScrollOnNewCell": true,
-  "jupyter.sendSelectionToInteractiveWindow": true,
   "powershell.codeFormatting.addWhitespaceAroundPipe": true,
   "powershell.codeFormatting.autoCorrectAliases": true,
   "powershell.codeFormatting.preset": "OTBS",
@@ -44,4 +43,5 @@
     "--max-line-length=88"
   ],
   "python.linting.pylintEnabled": true,
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
 }
